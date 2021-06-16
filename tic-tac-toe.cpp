@@ -7,11 +7,7 @@ const int n = 3;
 map<char, int> d; // init players 'O':2, 'X':1;
 
 void clear() {
-#ifdef WINDOWS
-    system("cls");
-#else
-    system("clear");
-#endif
+    system("cls||clear");
 }
 
 /*Checking free fields*/
